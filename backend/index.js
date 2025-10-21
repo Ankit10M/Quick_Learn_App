@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 4000
 
 const corsOptions = {
     // Specify the exact origin your frontend is running on
-    origin: 'http://localhost:5173', 
+    origin: 'https://aplus-learnings.onrender.com', 
     methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
     credentials: true, // Important for sending Authorization headers
     optionsSuccessStatus: 204
