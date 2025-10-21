@@ -24,7 +24,7 @@ const Login = ({ onLoginSuccess = null }) => {
     return e;
   };
 
-  const API_BASE = "http://localhost:4000";
+  const API_BASE = "https://quick-learn-app-backend.onrender.com";
   const handleSubmit = async (ev) => {
     ev.preventDefault();
     setSubmitError("");

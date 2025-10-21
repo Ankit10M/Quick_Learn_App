@@ -30,7 +30,7 @@ import {
 } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
 import { CgCPlusPlus } from "react-icons/cg";
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://quick-learn-app-backend.onrender.com";
 const Sidebar = () => {
   const [selectedTech, setSelectedTech] = useState(null);
   const [selectedLevel, setSelectedLevel] = useState(null);
